@@ -1,0 +1,56 @@
+.wrapper{
+	/*width: 600px;*/
+	background:#eee;
+	margin: 0 auto 0 auto;
+}
+.heading{
+	height: 100px;
+	background:red;
+	padding: 20px;
+	text-align: left;
+}
+.navigation{
+	height: 60px;
+	background:lightgreen;
+}
+ul{
+    margin: 20px 0 0;
+    padding: 0;
+    border-radius: 4px;
+    background: #262626;
+    overflow: hidden;
+}
+ ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ ul li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    }
+.content{
+	/*background-image: url(neil.jpg);*/
+	background-image-width: 0px;
+	background-image-height:0px;
+	min-height: 600px;
+	width: 500px;
+	float: left;
+}
+.sidebar{
+	/*background-image: url(goldiluck.jpg);*/
+	width: 500px;
+	float: right;
+	background:lightblue;
+	min-height: 600px;
+}
+.footer{
+	clear: both;
+	background:black;
+	height: 40px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
